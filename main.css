@@ -1,0 +1,31 @@
+/* CSS rulesets of three parts */
+/* 1: selector to select what elements you are styling */
+/* 2: declaration block where your CSS go */
+/* 3: declarations of CSS rules inside the declaration block */
+
+table, th, td {
+border-width: 1px;
+border-color: black;
+border-style: solid;
+border-collapse: collapse;
+}
+
+table { width: 100%;
+
+    background-color: white;
+}
+h1 { color: gray;
+}
+
+th { border-style: groove;border-color:grey}
+td {border-style: groove;}
+
+/* Aligning the text for the h1 to center */
+h1 {text-align: center;}
+
+th{ font-size: 20pt;
+text-decoration: underline;
+}
+
+ td { text-align: center; font-size: 16pt;
+}
